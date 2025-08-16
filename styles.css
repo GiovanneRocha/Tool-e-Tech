@@ -91,6 +91,20 @@ nav .acoes .login {
   font-weight: bold;
 }
 
+.hero button a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.button-destaque {
+  background-color: #00ff88;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
 /* Serviços */
 .servicos {
   padding: 60px 5%;

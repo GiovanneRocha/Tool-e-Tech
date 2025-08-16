@@ -45,3 +45,14 @@ menuLinks.forEach(link => {
     }
   });
 });
+
+const buttonsAnimations = document.querySelectorAll('.button-destaque');
+buttonsAnimations.forEach(button => {
+  button.addEventListener('mouseenter', () => {
+    button.style.transform = 'scale(1.05)';
+    button.style.transition = 'transform 0.3s ease';
+  });
+  button.addEventListener('mouseleave', () => {
+    button.style.transform = 'scale(1)';
+  });
+});
