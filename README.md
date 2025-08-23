@@ -46,7 +46,7 @@
 
 ---
 
-## 📊 O Que Fazemos  --
+## 📊 O Que Fazemos 
 
 👉 Atuamos em projetos de **análise, modelagem e implementação de bancos de dados**, criando soluções que:  
 ✔ Organizam informações de leads e clientes  
@@ -56,7 +56,7 @@
 
 ---
 
-## 🎯 Objetivo do Repositório  --
+## 🎯 Objetivo do Repositório  
 
 📌 Modelagem **Conceitual, Lógica e Física** de Banco de Dados  
 📌 Scripts SQL (**DDL, DML, DCL, DTL**)  
