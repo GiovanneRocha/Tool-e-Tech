@@ -18,6 +18,10 @@
         color: var(--cor-dark);
         cursor: pointer;
     }
+
+    .theme-toggle {
+        margin-right: 10px;
+    }
     
     .mobile-nav {
         background: var(--cor-branca);
