@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tool&Tech - Soluções Integradas de TI</title>
+
+    <meta name="description" content="Consultoria em TI, automação e segurança para empresas modernas. Soluções integradas para transformar seu negócio.">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Tool&Tech - Soluções Integradas de TI">
+    <meta property="og:description" content="Consultoria em TI, automação e segurança para empresas modernas.">
+    <meta property="og:image" content="assets/images/logo/logo-tool-tech.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.tooltech.com.br/">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tool&Tech - Soluções Integradas de TI">
+    <meta name="twitter:description" content="Consultoria em TI, automação e segurança para empresas modernas.">
+    <meta name="twitter:image" content="assets/images/logo/logo-tool-tech.png">
+
+    <link rel="icon" href="assets/images/logo/logo-tool-tech.icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Preload para hero slides -->
+    <link rel="preload" as="image" href="assets/images/hero/slide-1.jpg">
+    <link rel="preload" as="image" href="assets/images/hero/slide-2.jpg">
+</head>
+<body>
+
+    <header id="main-header">
+        <nav class="container nav-bar">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo/logo-tool-tech.png" alt="Logo da Tool&Tech Consulting Services - Consultoria em TI, automação e segurança para empresas modernas" style="max-width: 260px; height: auto;" loading="eager">
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="pages/solucoes.html">Soluções</a></li>
+                <li><a href="#cases">Casos de Sucesso</a></li>
+                <li><a href="pages/blog.html">Blog</a></li>
+                <li><a href="pages/sobre-nos.html">Sobre Nós</a></li>
+                </ul>
+            
+            <a href="#contact" class="cta-button header-cta">
+                <i class="fas fa-headset"></i> Fale com Especialista
+            </a>
+
+            <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">
+                <i class="fas fa-sun"></i>
+            </button>
+            
+            <button id="menu-toggle" aria-label="Abrir menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+        
+        <div id="mobile-menu" class="mobile-nav">
+            <a href="pages/solucoes.html">Soluções</a>
+            <a href="#cases">Casos de Sucesso</a>
+            <a href="pages/blog.html">Blog</a>
+            <a href="pages/sobre-nos.html">Sobre Nós</a>
+            <a href="#contact" class="cta-button">Fale com um Especialista</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="swiper hero-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image: url('assets/images/hero/slide-1.jpg');">
+                        <div class="hero-overlay"></div>
+                        <div class="container hero-content-wrapper">
+                            <div class="hero-content">
+                                <h1>Soluções de TI que Transformam</h1>
+                                <p>Tecnologia, segurança e inovação para impulsionar o crescimento do seu negócio.</p>
+                                <a href="pages/solucoes.html" class="cta-button">Conheça Nossas Soluções</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('assets/images/hero/slide-2.jpg');">
+                        <div class="hero-overlay"></div>
+                        <div class="container hero-content-wrapper">
+                            <div class="hero-content">
+                                <h1>Cyber Security de Ponta a Ponta</h1>
+                                <p>Proteja seus dados, sua reputação e seus clientes com nossas defesas ativas.</p>
+                                <a href="pages/solucoes.html" class="cta-button">Veja Nossos Planos</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('assets/images/hero/slide-3.jpg');">
+                        <div class="hero-overlay"></div>
+                        <div class="container hero-content-wrapper">
+                            <div class="hero-content">
+                                <h1>Especialistas em Nuvem Híbrida</h1>
+                                <p>Otimize custos e ganhe performance combinando o melhor da nuvem pública e privada.</p>
+                                <a href="pages/solucoes.html" class="cta-button">Explore a Nuvem Híbrida</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" style="background-image: url('assets/images/hero/slide-4.jpg');">
+                        <div class="hero-overlay"></div>
+                        <div class="container hero-content-wrapper">
+                            <div class="hero-content">
+                                <h1>Suporte de TI 24/7</h1>
+                                <p>Nossa equipe de especialistas está pronta para agir antes mesmo do problema acontecer.</p>
+                                <a href="pages/sobre-nos.html" class="cta-button">Conheça Nosso Time</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section id="metrics">
+            <div class="container">
+                <div class="metrics-grid" id="metrics-counter">
+                    <div class="metric-card" data-aos="fade-up" data-aos-delay="0">
+                        <i class="fas fa-users"></i>
+                        <div>
+                            <h3 data-goal="200">+0</h3>
+                            <p>Clientes Atendidos</p>
+                        </div>
+                    </div>
+                    <div class="metric-card" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-shield-alt"></i>
+                        <div>
+                            <h3 data-goal="1500">+0</h3>
+                            <p>Ameaças Bloqueadas</p>
+                        </div>
+                    </div>
+                    <div class="metric-card" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fas fa-headset"></i>
+                        <div>
+                            <h3>24/7</h3>
+                            <p>Suporte Dedicado</p>
+                        </div>
+                    </div>
+                    <div class="metric-card" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fas fa-award"></i>
+                        <div>
+                            <h3 data-goal="10">+0</h3>
+                            <p>Anos de Mercado</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="solutions" class="section-padding section-bg">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>Nossas Principais Soluções</h2>
+                    <p>Um portfólio selecionado com as principais soluções — resumo rápido e link para ver todos os serviços.</p>
+                </div>
+
+                <div class="solutions-compact-grid" data-aos="fade-up">
+                    <div class="solution-compact-card">
+                        <i class="fas fa-database"></i>
+                        <h4>Proteção de Dados</h4>
+                        <p>Backup, DR e replicação para garantir disponibilidade e recuperação rápida.</p>
+                        <a href="pages/solucoes.html#protecao-dados" class="card-link">Ver detalhes <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="solution-compact-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Cyber Security</h4>
+                        <p>SOC, EDR e firewalls gerenciados para proteção contínua da sua operação.</p>
+                        <a href="pages/solucoes.html#cyber-security" class="card-link">Ver detalhes <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="solution-compact-card">
+                        <i class="fas fa-cloud"></i>
+                        <h4>Cloud & Infra</h4>
+                        <p>Arquitetura híbrida, migração e IaaS para agilidade e economia.</p>
+                        <a href="pages/solucoes.html#cloud-computing" class="card-link">Ver detalhes <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="solution-compact-card">
+                        <i class="fas fa-robot"></i>
+                        <h4>Automação & RPA</h4>
+                        <p>RPA, ETL e BI para processos mais rápidos e decisões data-driven.</p>
+                        <a href="pages/solucoes.html#automacao-rpa" class="card-link">Ver detalhes <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="section-header" data-aos="fade-up" style="margin-top: 30px;">
+                    <a href="pages/solucoes.html" class="cta-button">Ver Todas as Soluções</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="cases" class="section-padding">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>Resultados que Geram Confiança</h2>
+                    <p>Veja quem confia na Tool&Tech e os resultados que alcançamos juntos.</p>
+                </div>
+                
+                <div class="swiper logo-swiper" data-aos="fade-up">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="assets/images/clients/cliente-a.png" alt="Logo Cliente A"></div>
+                        <div class="swiper-slide"><img src="assets/images/clients/cliente-b.png" alt="Logo Cliente B"></div>
+                        <div class="swiper-slide"><img src="assets/images/clients/cliente-c.png" alt="Logo Cliente C"></div>
+                        <div class="swiper-slide"><img src="assets/images/clients/cliente-d.png" alt="Logo Cliente D"></div>
+                        <div class="swiper-slide"><img src="assets/images/clients/cliente-e.png" alt="Logo Cliente E"></div>
+                    </div>
+                </div>
+
+                <div class="cases-grid">
+                    <div class="testimonial-card" data-aos="fade-right">
+                        <i class="fas fa-quote-left"></i>
+                        <blockquote>
+                            "A parceria com a Tool&Tech foi um divisor de águas. Nossa eficiência operacional aumentou e nossos custos com infraestrutura de TI foram reduzidos em 30%."
+                        </blockquote>
+                        <div class="author-info">
+                            <img src="https://placehold.co/50x50/EFEFEF/999999?text=Foto" alt="Foto do Cliente">
+                            <div>
+                                <h4>João da Silva</h4>
+                                <p>CIO, Empresa Exemplo</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="pages/case-study.html" class="case-study-card-link" data-aos="fade-left">
+                        <div class="case-study-card">
+                            <h3>Case: Indústria Varejista</h3>
+                            <p>Implementação de sistema de Disaster Recovery e migração para nuvem híbrida em 60 dias.</p>
+                            <div class="case-metrics-grid">
+                                <div class="case-metric-item">
+                                    <span>+40%</span>
+                                    <p>em Performance</p>
+                                </div>
+                                <div class="case-metric-item">
+                                    <span>-30%</span>
+                                    <p>em Custos de TI</p>
+                                </div>
+                            </div>
+                            <span class="card-link" style="margin-top: 20px;">Ver estudo de caso completo <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="section-padding section-bg">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>Nosso Blog</h2>
+                    <p>Insights, tendências e novidades do mundo da tecnologia e segurança.</p>
+                </div>
+                
+                <div class="blog-grid">
+                    <div class="article-card" data-aos="fade-up" data-aos-delay="100">
+                        <a href="pages/artigo.html?id=1" class="article-image-link">
+                            <div class="article-image" style="background-image: url('assets/images/blog/artigo-1.jpg');"></div>
+                        </a>
+                        <div class="article-content">
+                            <span class="article-category">Cyber Security</span>
+                            <h3>Os 5 principais riscos de segurança para empresas em 2026</h3>
+                            <a href="pages/artigo.html?id=1" class="card-link">Leia mais <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="article-card" data-aos="fade-up" data-aos-delay="200">
+                        <a href="pages/artigo.html?id=2" class="article-image-link">
+                            <div class="article-image" style="background-image: url('assets/images/blog/artigo-2.jpg');"></div>
+                        </a>
+                        <div class="article-content">
+                            <span class="article-category">Proteção de Dados</span>
+                            <h3>O que é Disaster Recovery e por que sua empresa precisa</h3>
+                            <a href="pages/artigo.html?id=2" class="card-link">Leia mais <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="article-card" data-aos="fade-up" data-aos-delay="300">
+                        <a href="pages/artigo.html?id=3" class="article-image-link">
+                            <div class="article-image" style="background-image: url('assets/images/blog/artigo-3.jpg');"></div>
+                        </a>
+                        <div class="article-content">
+                            <span class="article-category">Cloud</span>
+                            <h3>Nuvem Híbrida vs. Multicloud: Qual a melhor estratégia?</h3>
+                            <a href="pages/artigo.html?id=3" class="card-link">Leia mais <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-header" data-aos="fade-up">
+                    <a href="pages/blog.html" class="cta-button" style="margin-top: 30px;">Ver Todos os Posts</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <section id="contact" class="contact-footer-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Quer mais informações sobre nossos serviços?</h2>
+                    <p>Marque uma conversa agora com nossos especialistas.</p>
+                    <div class="footer-links-grid">
+                        <div class="footer-column">
+                            <h4>Navegação</h4>
+                            <ul>
+                                <li><a href="../index.html">Home</a></li>
+                                <li><a href="solucoes.html">Soluções</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="sobre-nos.html">Sobre Nós</a></li>
+                                <li><a href="#">Política de Privacidade</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Contato</h4>
+                            <ul>
+                                <li><i class="fas fa-envelope"></i> <a href="mailto:tooltech.solutions@outlook.com">tooltech.solutions@outlook.com</a></li>
+                                <li>
+                                    <i class="fab fa-instagram"></i>
+                                    <a href="https://instagram.com/tooltech.solutions" target="_blank" rel="noopener">@tooltech.solutions</a>
+                                </li>
+                                <li>
+                                    <i class="fab fa-youtube"></i>
+                                    <a href="https://youtube.com/@tooltechsolutions" target="_blank" rel="noopener">YouTube</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form id="contact-form" class="contact-form-card">
+                        <h3>Inicie sua transformação</h3>
+                        
+                        <div id="form-feedback" class="form-feedback"></div>
+                        
+                        <div class="form-group">
+                            <label for="select-option">Selecione uma opção *</label>
+                            <select id="select-option" name="select-option" required>
+                                <option value="" disabled selected>Quero saber sobre...</option>
+                                <option value="cyber-security">Cyber Security</option>
+                                <option value="data-protection">Proteção de Dados</option>
+                                <option value="cloud">Computação em Nuvem</option>
+                                <option value="other">Outro Assunto</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Nome completo *</label>
+                            <input type="text" id="name" name="name" placeholder="Ex.: Sara da Silva" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail corporativo *</label>
+                            <input type="email" id="email" name="email" placeholder="seunome@empresa.com.br" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Celular *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Seu DDD com dois dígitos + Número" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Nome da empresa *</label>
+                            <input type="text" id="company" name="company" placeholder="Ex.: Penso Tecnologia" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company-size">Tamanho da empresa *</label>
+                            <select id="company-size" name="company-size" required>
+                                <option value="" disabled selected>Selecione...</option>
+                                <option value="1-10">1-10 funcionários</option>
+                                <option value="11-50">11-50 funcionários</option>
+                                <option value="51-200">51-200 funcionários</option>
+                                <option value="201+">Mais de 200 funcionários</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="cta-button form-button">
+                            <i class="fas fa-rocket"></i> Avançar
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <a href="#hero" class="logo-footer">
+                    <img src="assets/images/logo/logo-tool-tech.png" alt="Logo da Tool&Tech Consulting Services - Consultoria em TI, automação e segurança para empresas modernas" style="max-width: 180px; height: auto;" loading="lazy">
+                </a>
+                <p>&copy; 2025 Tool&Tech. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </section>
+    
+    <a href="https://outlook.office.com/mail/deeplink/compose?to=tooltech.solutions@outlook.com" class="outlook-fab" target="_blank" aria-label="Enviar email pelo Outlook">
+        <i class="fas fa-envelope"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/animations.js"></script>
+    <script src="assets/js/email-fallback.js"></script>
+    <script src="assets/js/form-handler.js"></script>
+</body>
+</html>

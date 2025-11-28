@@ -1,0 +1,100 @@
+<!-- Footer Template - Reutilizável em todas as páginas -->
+<section id="contact" class="contact-footer-section">
+    <div class="container">
+        <div class="contact-grid">
+            <div class="contact-info" data-aos="fade-right">
+                <h2>Quer mais informações sobre nossos serviços?</h2>
+                <p>Marque uma conversa agora com nossos especialistas.</p>
+
+                <div class="footer-links-grid">
+                    <div class="footer-column">
+                        <h4>Navegação</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="pages/solucoes.html">Soluções</a></li>
+                            <li><a href="pages/blog.html">Blog</a></li>
+                            <li><a href="pages/sobre-nos.html">Sobre Nós</a></li>
+                            <li><a href="#">Política de Privacidade</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contato</h4>
+                        <ul>
+                            <li><i class="fas fa-envelope"></i> <a href="mailto:tooltech.solutions@outlook.com">tooltech.solutions@outlook.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Siga-nos</h4>
+                        <div class="social-links">
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper" data-aos="fade-left">
+                <form id="contact-form" class="contact-form-card">
+                    <h3>Inicie sua transformação</h3>
+                    
+                    <div class="form-group">
+                        <label for="select-option">Selecione uma opção *</label>
+                        <select id="select-option" name="select-option" required>
+                            <option value="" disabled selected>Quero saber sobre...</option>
+                            <option value="cyber-security">Cyber Security</option>
+                            <option value="data-protection">Proteção de Dados</option>
+                            <option value="cloud">Computação em Nuvem</option>
+                            <option value="other">Outro Assunto</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Nome completo *</label>
+                        <input type="text" id="name" name="name" placeholder="Ex.: Sara da Silva" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail corporativo *</label>
+                        <input type="email" id="email" name="email" placeholder="seunome@empresa.com.br" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Celular *</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Seu DDD com dois dígitos + Número" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Nome da empresa *</label>
+                        <input type="text" id="company" name="company" placeholder="Ex.: Penso Tecnologia" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company-size">Tamanho da empresa *</label>
+                        <select id="company-size" name="company-size" required>
+                            <option value="" disabled selected>Selecione...</option>
+                            <option value="1-10">1-10 funcionários</option>
+                            <option value="11-50">11-50 funcionários</option>
+                            <option value="51-200">51-200 funcionários</option>
+                            <option value="201+">Mais de 200 funcionários</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit" class="cta-button form-button">
+                        <i class="fas fa-rocket"></i> Avançar
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+             <a href="#hero" class="logo-footer">
+                <img src="assets/images/logo/logo-tool-tech.png" alt="Tool&Tech Logo">
+                <span>Tool&Tech</span>
+            </a>
+            <p>&copy; 2025 Tool&Tech. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</section>
+
+<a href="https://outlook.office.com/mail/deeplink/compose?to=tooltech.solutions@outlook.com" class="outlook-fab" target="_blank" aria-label="Enviar email pelo Outlook">
+    <i class="fas fa-envelope"></i>
+</a>
+
+<!-- Script de fallback para email -->
+<script src="assets/js/email-fallback.js"></script>
