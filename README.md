@@ -1,9 +1,6 @@
-
-
 <p align="center">
-  <img src="assets/images/logo/logo-tool-tech.icon" width="120px" alt="Tooll&Tech Consulting Services 🚀>
-
----
+  <img src="assets/images/logo/logo-tool-tech.icon" width="120px" alt="Tooll&Tech Consulting Services 🚀">
+</p>
 
 <h1 align="center">
   🔧 Tool&Tech Consulting Services 🚀
