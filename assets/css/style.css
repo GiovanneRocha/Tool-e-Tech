@@ -230,7 +230,7 @@ body {
 */
 
 .logo img {
-    max-height: 40px;  /* ← CONTROLE AQUI O TAMANHO DA LOGO */
+    max-height: 80px;  /* ← CONTROLE AQUI O TAMANHO DA LOGO */
     width: auto;
     object-fit: contain;
     display: block;
@@ -1675,4 +1675,5 @@ html[data-theme="dark"] .solution-compact-card:hover {
     .solutions-compact-grid {
         grid-template-columns: 1fr;
     }
+
 }
