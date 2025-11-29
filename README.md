@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/logo/logo-tool-tech.icon" width="120px" alt="Tool&Tech Consulting Services 🚀">
+  <img src="assets/images/logo/logo-tool-tech-rodape.png" width="700px" alt="Tool&Tech Consulting Services 🚀">
 </p>
 
 <h1 align="center">
@@ -8,11 +8,6 @@
 
 <p align="center">
   <em>Consultoria tecnológica, automação e soluções digitais para empresas modernas</em>
-</p>
-
-<p align="center">
-  <strong>Status:</strong> ✅ Production Ready (v3.0) | 
-  <strong>Última Atualização:</strong> 28 de novembro de 2025
 </p>
 
 ---
@@ -649,23 +644,4 @@ Propriedade intelectual de **Tool&Tech Consulting Services**. Todos os direitos 
 
 ---
 
-## 🙏 Créditos
-
-- **Design & Front-End:** GitHub Copilot
-- **Iconografia:** Font Awesome 6.5.1
-- **Animações:** AOS.js, Swiper.js
-- **Tipografia:** Google Fonts (Inter)
-- **Hospedagem:** [Seu provedor]
-
----
-
-<p align="center">
-  <strong>📊 Última Atualização: 28 de novembro de 2025</strong><br>
-  <strong>🔧 Versão: 3.0 (Production Ready)</strong><br>
-  <strong>⭐ Status: ✅ Totalmente Funcional</strong>
-</p>
-
-<p align="center">
-  Desenvolvido com ❤️ por <strong>Tool&Tech Consulting Services</strong>
-</p>
 
